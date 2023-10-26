@@ -1,6 +1,6 @@
-import { IUser } from "./user.interface";
+import { IUser } from './user.interface';
 
 export interface IAuthPayload {
-    accessToken: string;
-    user : Omit<IUser, 'password'>;
+  accessToken: string;
+  user: Omit<IUser, 'password'>;
 }

@@ -1,9 +1,9 @@
-import {IsString, IsNumber} from 'class-validator'
+import { IsString } from 'class-validator';
 
 export class CreateArticleDto {
-    @IsString()
-    title: string;
+  @IsString()
+  title: string;
 
-    @IsString()
-    body: string;
+  @IsString()
+  body: string;
 }

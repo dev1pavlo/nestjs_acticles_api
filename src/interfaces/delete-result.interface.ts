@@ -1,3 +1,3 @@
 export interface IDeleteResult {
-    message: string
+  message: string;
 }
